@@ -310,4 +310,4 @@ statistics.oxygens.week(data)
 statistics.oxygens.month(data)
 // { average, max, min, daily, data }
 ```
-# analyzkit
+
