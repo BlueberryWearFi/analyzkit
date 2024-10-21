@@ -1,0 +1,27 @@
+[
+    {
+        "anonymous": false,
+        "inputs": [
+            { "indexed": true, "internalType": "address", "name": "token", "type": "address" },
+            { "indexed": true, "internalType": "uint256", "name": "tokenId", "type": "uint256" },
+            { "indexed": false, "internalType": "string", "name": "uid", "type": "string" },
+            { "indexed": false, "internalType": "string", "name": "sncode", "type": "string" },
+            { "indexed": false, "internalType": "address", "name": "to", "type": "address" },
+            {
+                "components": [
+                    { "internalType": "address", "name": "token", "type": "address" },
+                    { "internalType": "uint256", "name": "amount", "type": "uint256" }
+                ],
+                "indexed": false,
+                "internalType": "struct DoitRingDevice.Reward[]",
+                "name": "rewards",
+                "type": "tuple[]"
+            },
+            { "indexed": false, "internalType": "string", "name": "memo", "type": "string" },
+            { "indexed": false, "internalType": "int256", "name": "blockHeight", "type": "int256" },
+            { "indexed": false, "internalType": "uint256", "name": "timestamp", "type": "uint256" }
+        ],
+        "name": "Claimed",
+        "type": "event"
+    }
+]
